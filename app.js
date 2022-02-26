@@ -145,13 +145,13 @@ ghosts.forEach((ghost) => {
 ghosts.forEach((ghost) => {
   // Loopa igenom och gör något med varje spöke
   let ghostHeading = document.createElement("a");
-  let ghostDesc = document.createElement("p");
+  //let ghostDesc = document.createElement("p");
   ghostHeading.innerHTML = ghost.name;
-  ghostDesc.innerHTML = ghost.desc;
+  //ghostDesc.innerHTML = ghost.desc;
   document.querySelector("main").append(ghostHeading);
   console.log(ghostHeading);
-  document.querySelector("main").append(ghostDesc);
-  console.log(ghostDesc);
+  //document.querySelector("main").append(ghostDesc);
+  //console.log(ghostDesc);
 });
 
 // För att hitta en enskild om vi inte vi inte visste index
