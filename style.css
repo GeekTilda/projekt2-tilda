@@ -86,6 +86,7 @@ main a {
   font-size: 80px;
   font-family: "Comforter", cursive;
   text-align: center;
+  transition: 0.3s;
 }
 
 main a:hover {
