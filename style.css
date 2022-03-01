@@ -8,7 +8,7 @@
 }
 
 header {
-  background-color: rgb(21, 54, 15);
+  background-color: rgb(53, 77, 105);
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -102,11 +102,11 @@ h3 {
   text-align: center;
   padding: 10%;
   /*margin: 10%;*/
-  color: rgba(81, 207, 92, 0.479);
+  color: rgba(34, 61, 107, 0.831);
 }
 
 .imgtext {
-  background-image: url("phasmophobia.jpg");
+  background-image: url("phasmophobia7.png");
   background-size: cover;
   height: 600px;
 }
