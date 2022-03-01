@@ -110,3 +110,53 @@ h3 {
   background-size: cover;
   height: 600px;
 }
+
+.items-box img {
+  border: solid;
+  border-width: 10px;
+  border-color: rgba(36, 73, 94, 0.726);
+  margin: 2%;
+  height: 250px;
+  align-self: center;
+  transition: 0.3s;
+}
+
+.items-box {
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.UV:hover {
+  border-color: rgba(174, 0, 255, 0.658);
+  transition: 0.3s;
+}
+
+.Camera:hover {
+  border-color: rgba(92, 93, 102, 0.664);
+  transition: 0.3s;
+}
+
+.Book:hover {
+  border-color: rgba(88, 63, 39, 0.658);
+  transition: 0.3s;
+}
+
+.DOTS:hover {
+  border-color: rgba(43, 255, 0, 0.664);
+  transition: 0.3s;
+}
+
+.EMF:hover {
+  border-color: rgba(255, 0, 21, 0.849);
+  transition: 0.3s;
+}
+
+.SpiritBox:hover {
+  border-color: rgba(255, 136, 0, 0.89);
+  transition: 0.3s;
+}
+
+.Video:hover {
+  border-color: rgba(0, 0, 0, 0.877);
+  transition: 0.3s;
+}
