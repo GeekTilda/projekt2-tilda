@@ -160,3 +160,51 @@ h3 {
   border-color: rgba(0, 0, 0, 0.877);
   transition: 0.3s;
 }
+
+.cursed-items-box {
+  background-color: black;
+  display: grid;
+  grid-gap: 10px;
+  padding: 5%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Mirror {
+  width: 300px;
+  height: 250px;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.Music {
+  width: 300px;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.Board {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.Circle {
+  width: 300px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.Doll {
+  height: 250px;
+  width: 300px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.Cards {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.cursed-items-box img {
+  border: 10px outset rgba(19, 19, 19, 0.856);
+}
