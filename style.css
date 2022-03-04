@@ -85,6 +85,8 @@ main {
 
 main a {
   font-size: 80px;
+  text-decoration: none;
+  color: black;
   font-family: "Comforter", cursive;
   text-align: center;
   transition: 0.3s;

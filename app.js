@@ -145,7 +145,9 @@ ghosts.forEach((ghost) => {
 ghosts.forEach((ghost) => {
   // Loopa igenom och gör något med varje spöke
   let ghostHeading = document.createElement("a");
+  ghostHeading.setAttribute("href", "./ghost.html?ghostid=" + ghosts.name);
   //let ghostDesc = document.createElement("p");
+  ghostHeading.classList.add("ghost-name");
   ghostHeading.innerHTML = ghost.name;
   //ghostDesc.innerHTML = ghost.desc;
   document.querySelector("main").append(ghostHeading);
