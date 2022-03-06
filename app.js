@@ -145,13 +145,14 @@ ghosts.forEach((ghost) => {
 ghosts.forEach((ghost) => {
   // Loopa igenom och gör något med varje spöke
   let ghostHeading = document.createElement("a");
-  ghostHeading.setAttribute("href", "./ghost.html?ghostid=" + ghosts.name);
-  //let ghostDesc = document.createElement("p");
+  ghostHeading.setAttribute("href", "./ghost.html?ghostid=" + ghost.name);
+  console.log(ghost.name);
   ghostHeading.classList.add("ghost-name");
   ghostHeading.innerHTML = ghost.name;
-  //ghostDesc.innerHTML = ghost.desc;
   document.querySelector("main").append(ghostHeading);
   console.log(ghostHeading);
+  //let ghostDesc = document.createElement("p");
+  //ghostDesc.innerHTML = ghost.desc;
   //document.querySelector("main").append(ghostDesc);
   //console.log(ghostDesc);
 });
