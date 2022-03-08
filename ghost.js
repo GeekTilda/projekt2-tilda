@@ -140,3 +140,18 @@ const ghostHeading = document.createElement("h2");
 ghostHeading.classList.add("ghost-heading");
 ghostHeading.innerHTML = currentGhost.name;
 ghostBox.append(ghostHeading);
+
+const ghostHeading2 = document.createElement("h2");
+ghostHeading2.classList.add("ghost-heading2");
+ghostHeading2.innerHTML = currentGhost.specialEvidence1;
+ghostBox.append(ghostHeading2);
+
+const ghostHeading3 = document.createElement("h2");
+ghostHeading3.classList.add("ghost-heading2");
+ghostHeading3.innerHTML = currentGhost.specialEvidence2;
+ghostBox.append(ghostHeading3);
+
+const ghostHeading4 = document.createElement("h2");
+ghostHeading4.classList.add("ghost-heading2");
+ghostHeading4.innerHTML = currentGhost.specialEvidence3;
+ghostBox.append(ghostHeading4);
