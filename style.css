@@ -117,15 +117,24 @@ h3 {
   border: solid;
   border-width: 10px;
   border-color: rgba(36, 73, 94, 0.726);
-  margin: 2%;
-  height: 250px;
-  align-self: center;
+  height: 100%;
+  width: 100%;
   transition: 0.3s;
 }
 
 .items-box {
-  width: 100%;
-  justify-content: space-evenly;
+  margin: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.UV-box {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .UV:hover {
