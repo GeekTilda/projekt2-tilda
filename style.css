@@ -113,6 +113,37 @@ h3 {
   height: 600px;
 }
 
+/* UV BOX */
+
+.UV-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.UV-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.UV-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.UV-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.UV-box:hover .text {
+  opacity: 1;
+}
+
 .items-box img {
   border: solid;
   border-width: 10px;
