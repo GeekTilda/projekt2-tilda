@@ -144,6 +144,192 @@ h3 {
   opacity: 1;
 }
 
+/* CAMERA BOX */
+
+.Camera-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.Camera-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.Camera-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.Camera-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.Camera-box:hover .text {
+  opacity: 1;
+}
+
+/* BOOK BOX */
+
+.Book-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.Book-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.Book-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.Book-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.Book-box:hover .text {
+  opacity: 1;
+}
+
+/* DOTS BOX */
+
+.DOTS-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.DOTS-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.DOTS-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.DOTS-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.DOTS-box:hover .text {
+  opacity: 1;
+}
+
+/* EMF BOX */
+
+.EMF-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.EMF-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.EMF-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.EMF-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.EMF-box:hover .text {
+  opacity: 1;
+}
+
+/* SpiritBox BOX */
+
+.SpiritBox-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.SpiritBox-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.SpiritBox-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.SpiritBox-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.SpiritBox-box:hover .text {
+  opacity: 1;
+}
+
+/* Video BOX */
+
+.Video-box {
+  transition: 0.3s;
+  position: relative;
+}
+
+.Video-box:hover {
+  position: relative;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.Video-box .text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+  transition: all 0.3s ease;
+}
+
+.Video-box .text h1 {
+  color: white;
+  font-family: "Kaushan Script";
+}
+
+.Video-box:hover .text {
+  opacity: 1;
+}
+
 .items-box img {
   border: solid;
   border-width: 10px;
@@ -158,7 +344,7 @@ h3 {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .UV-box {
@@ -173,6 +359,13 @@ h3 {
   transition: 0.3s;
 }
 
+.Camera-box {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
 .Camera:hover {
   border-color: rgba(92, 93, 102, 0.664);
   transition: 0.3s;
@@ -183,9 +376,23 @@ h3 {
   transition: 0.3s;
 }
 
+.Book-box {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
 .DOTS:hover {
   border-color: rgba(43, 255, 0, 0.664);
   transition: 0.3s;
+}
+
+.DOTS-box {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .EMF:hover {
@@ -193,14 +400,35 @@ h3 {
   transition: 0.3s;
 }
 
+.EMF-box {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 .SpiritBox:hover {
   border-color: rgba(255, 136, 0, 0.89);
   transition: 0.3s;
 }
 
+.SpiritBox-box {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
 .Video:hover {
   border-color: rgba(0, 0, 0, 0.877);
   transition: 0.3s;
+}
+
+.Video-box {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 5;
 }
 
 .cursed-items-box {
